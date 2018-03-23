@@ -4,7 +4,7 @@ n=0
 if (os.name == 'nt'):
     
     while (n<10):
-        copyfile(os.getcwd()+'\Write_on_disk.py', os.getcwd()+'\Write_on_disk_copy_{}.py'.format(n))
+        copyfile(os.getcwd()+'\Write_on_disk.*', os.getcwd()+'\Write_on_disk_copy_{}.py'.format(n))
         n+=1
     
     
